@@ -1,0 +1,16 @@
+.description-card {
+    padding: 1.5rem;
+}
+.description-card__content {
+    display: flex;
+}
+.description-card__content > * {
+    flex-basis: 100%;
+}
+
+@media screen and (min-width: 700px) {
+    .description-card__content {
+        align-items: center;
+        padding: 3rem;
+    }
+}
