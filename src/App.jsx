@@ -4,6 +4,7 @@ import {
     Route
 } from "react-router-dom";
 import { Home } from "./components/Home.jsx";
+import { Footer } from "./components/Footer.jsx";
 
 // CSS Styling Imports
 import "./styles/App.css";
@@ -18,6 +19,7 @@ function App() {
                         <Home />
                     </Route>
                 </Switch>
+                <Footer />
             </Router>
         </div >
     );

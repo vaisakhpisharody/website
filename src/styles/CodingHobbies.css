@@ -1,0 +1,43 @@
+.coding-hobbies {
+    padding: 3rem;
+    align-items: center;
+    text-align: center;
+    background-color: #e1e1e1;
+    display: flex;
+    flex-direction: column;
+}
+
+.coding-hobbies:nth-child(2n) {
+    background-color: #fff;
+}
+
+.coding-hobbies__header {
+    font-size: 3rem;
+    padding: 3rem;
+}
+
+.coding-hobbies__content {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: auto;
+    max-width: 90%;
+}
+
+@media screen and (min-width: 1150px) {
+    .coding-hobbies {
+        padding: 5rem;
+        display: flex;
+    }
+
+    .coding-hobbies__content {
+        display: flex;
+        flex-direction: row;
+    }
+    .coding-hobbies__content > * {
+        flex-basis: 100%;
+    }
+}
